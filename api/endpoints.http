@@ -1,0 +1,18 @@
+POST http://localhost:8080/route
+Content-Type: application/json
+
+{
+    "title": "route 1",
+    "startPosition": {
+            "lat": 51.0,
+            "lng": 0.1
+        },
+        "endPosition": {
+            "lat": 52.0,
+            "lng": 0.2
+    }
+}
+
+###
+GET http://localhost:8080/route/list
+Content-Type: application/json
